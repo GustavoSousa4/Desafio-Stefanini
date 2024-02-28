@@ -13,18 +13,12 @@
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
-      {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
-      }
-    ]
+    "ReturnTypes": []
   },
   {
     "ContainingType": "ApiPedidos.Controllers.PedidoController",
     "Method": "GetByIdAsync",
-    "RelativePath": "Pedidos/Pedidos/{id}",
+    "RelativePath": "Pedidos/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -38,6 +32,63 @@
     "ReturnTypes": [
       {
         "Type": "Application.Pedido.Model.Response.PedidoResponseDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ApiPedidos.Controllers.PedidoController",
+    "Method": "PutAsync",
+    "RelativePath": "Pedidos/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "pedidoRequestDto",
+        "Type": "Application.Pedido.Model.Request.PedidoRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPedidos.Controllers.PedidoController",
+    "Method": "DeleteAsync",
+    "RelativePath": "Pedidos/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ApiPedidos.Controllers.PedidoController",
+    "Method": "GetAllAsync",
+    "RelativePath": "Pedidos/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[Application.Pedido.Model.Response.PedidoResponseDto, Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
         "MediaTypes": [
           "text/plain",
           "application/json",

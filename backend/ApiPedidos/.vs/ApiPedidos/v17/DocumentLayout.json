@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{48FE81EC-FF00-4EB7-B6DF-0481F33E40F7}|Dependency\\Dependency.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\dependency\\injector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{48FE81EC-FF00-4EB7-B6DF-0481F33E40F7}|Dependency\\Dependency.csproj|solutionrelative:dependency\\injector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8304AA1-9B51-4FBB-94DE-6A8BD179FA3B}|ApiPedidos\\ApiPedidos.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\apipedidos\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8304AA1-9B51-4FBB-94DE-6A8BD179FA3B}|ApiPedidos\\ApiPedidos.csproj|solutionrelative:apipedidos\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\IoC\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IoC\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\pedido\\service\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\pedido\\service\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\pedido\\service\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\pedido\\service\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F8304AA1-9B51-4FBB-94DE-6A8BD179FA3B}|ApiPedidos\\ApiPedidos.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\apipedidos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F8304AA1-9B51-4FBB-94DE-6A8BD179FA3B}|ApiPedidos\\ApiPedidos.csproj|solutionrelative:apipedidos\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8304AA1-9B51-4FBB-94DE-6A8BD179FA3B}|ApiPedidos\\ApiPedidos.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\apipedidos\\controllers\\pedidocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,64 +19,84 @@
       "RelativeMoniker": "D:0:0:{F8304AA1-9B51-4FBB-94DE-6A8BD179FA3B}|ApiPedidos\\ApiPedidos.csproj|solutionrelative:apipedidos\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\infrastructure\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\pedido\\service\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\pedido\\service\\ipedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\domain\\respositories\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|solutionrelative:domain\\respositories\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\produto\\service\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\produto\\service\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\pedido\\model\\response\\pedidoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\pedido\\model\\response\\pedidoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\infrastructure\\repositories\\itenspedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\itenspedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\pedido\\model\\request\\pedidorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\pedido\\model\\request\\pedidorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\itenspedido\\model\\response\\itenspedidoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\itenspedido\\model\\response\\itenspedidoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\itenspedido\\model\\resquest\\itenspedidorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\itenspedido\\model\\resquest\\itenspedidorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\produto\\service\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\produto\\service\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\pedido\\service\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\pedido\\service\\pedidoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\domain\\respositories\\iitenspedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|solutionrelative:domain\\respositories\\iitenspedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\infrastructure\\repositories\\itenspedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\itenspedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\infrastructure\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\pedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\produto\\service\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\produto\\service\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\pedido\\model\\request\\pedidorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\pedido\\model\\request\\pedidorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\itenspedido\\model\\resquest\\itenspedidorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\itenspedido\\model\\resquest\\itenspedidorequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F8304AA1-9B51-4FBB-94DE-6A8BD179FA3B}|ApiPedidos\\ApiPedidos.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\apipedidos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F8304AA1-9B51-4FBB-94DE-6A8BD179FA3B}|ApiPedidos\\ApiPedidos.csproj|solutionrelative:apipedidos\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\domain\\respositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|solutionrelative:domain\\respositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\pedido\\model\\response\\pedidoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\pedido\\model\\response\\pedidoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\infrastructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\repositories\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\domain\\respositories\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|solutionrelative:domain\\respositories\\ipedidorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\itenspedido\\model\\response\\itenspedidoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\itenspedido\\model\\response\\itenspedidoresponsedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Migrations\\20240228133948_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Infrastructure\\Migrations\\20240228133948_view.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\infrastructure\\migrations\\20240227175806_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA154608-7236-4CC6-8AEE-8F71D57029E6}|Infrastructure\\Infrastructure.csproj|solutionrelative:infrastructure\\migrations\\20240227175806_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48FE81EC-FF00-4EB7-B6DF-0481F33E40F7}|Dependency\\Dependency.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\dependency\\injector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48FE81EC-FF00-4EB7-B6DF-0481F33E40F7}|Dependency\\Dependency.csproj|solutionrelative:dependency\\injector.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\produto\\service\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\produto\\service\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4D1D6976-07FD-4652-A847-F451AA6552A8}|Application\\Application.csproj|solutionrelative:application\\application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|c:\\myprojects\\desafio-stefanini\\backend\\apipedidos\\domain\\respositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}|Domain\\Domain.csproj|solutionrelative:domain\\respositories\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -103,78 +115,201 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DependencyInjection.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\IoC\\DependencyInjection.cs",
-              "RelativeDocumentMoniker": "IoC\\DependencyInjection.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\IoC\\DependencyInjection.cs",
-              "RelativeToolTip": "IoC\\DependencyInjection.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T12:17:45.336Z"
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\appsettings.json",
+              "RelativeDocumentMoniker": "ApiPedidos\\appsettings.json",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\appsettings.json",
+              "RelativeToolTip": "ApiPedidos\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-28T18:05:38.152Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PedidoRepository.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\PedidoRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PedidoRepository.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\PedidoRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\PedidoRepository.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAmwDwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T22:40:47.082Z"
+              "DocumentIndex": 0,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ApiPedidos\\appsettings.Development.json",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\appsettings.Development.json",
+              "RelativeToolTip": "ApiPedidos\\appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-28T18:05:32.116Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\Program.cs",
-              "RelativeDocumentMoniker": "ApiPedidos\\Program.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\Program.cs",
-              "RelativeToolTip": "ApiPedidos\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T20:19:42.071Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ItensPedidoRepository.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\ItensPedidoRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ItensPedidoRepository.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\ItensPedidoRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\ItensPedidoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T22:42:19.89Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "PedidoController.cs",
               "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\Controllers\\PedidoController.cs",
               "RelativeDocumentMoniker": "ApiPedidos\\Controllers\\PedidoController.cs",
               "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\Controllers\\PedidoController.cs",
               "RelativeToolTip": "ApiPedidos\\Controllers\\PedidoController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAUAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAIAwwBsAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-28T00:27:44.461Z"
+              "WhenOpened": "2024-02-28T00:27:44.461Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
+              "Title": "PedidoRequestDto.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Model\\Request\\PedidoRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\Pedido\\Model\\Request\\PedidoRequestDto.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Model\\Request\\PedidoRequestDto.cs",
+              "RelativeToolTip": "Application\\Pedido\\Model\\Request\\PedidoRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T21:47:34.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PedidoService.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Service\\PedidoService.cs",
+              "RelativeDocumentMoniker": "Application\\Pedido\\Service\\PedidoService.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Service\\PedidoService.cs",
+              "RelativeToolTip": "Application\\Pedido\\Service\\PedidoService.cs",
+              "ViewState": "AQIAAGYAAAAAAAAAAAAQwG4AAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T22:35:32.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PedidoRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\PedidoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\PedidoRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\PedidoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\PedidoRepository.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAIwB8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T22:40:47.082Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ItensPedidoRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\ItensPedidoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ItensPedidoRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\ItensPedidoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ItensPedidoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAwAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T22:42:19.89Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IItensPedidoRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Domain\\Respositories\\IItensPedidoRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Respositories\\IItensPedidoRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Domain\\Respositories\\IItensPedidoRepository.cs",
+              "RelativeToolTip": "Domain\\Respositories\\IItensPedidoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T22:41:47.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPedidoService.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Service\\IPedidoService.cs",
+              "RelativeDocumentMoniker": "Application\\Pedido\\Service\\IPedidoService.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Service\\IPedidoService.cs",
+              "RelativeToolTip": "Application\\Pedido\\Service\\IPedidoService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T22:35:46.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Produto\\Service\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "Application\\Produto\\Service\\ProdutoService.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Produto\\Service\\ProdutoService.cs",
+              "RelativeToolTip": "Application\\Produto\\Service\\ProdutoService.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAAAIwDsAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T20:27:52.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\Program.cs",
+              "RelativeDocumentMoniker": "ApiPedidos\\Program.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\Program.cs",
+              "RelativeToolTip": "ApiPedidos\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA8AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T20:19:42.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ItensPedidoRequestDto.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\ItensPedido\\Model\\Resquest\\ItensPedidoRequestDto.cs",
+              "RelativeDocumentMoniker": "Application\\ItensPedido\\Model\\Resquest\\ItensPedidoRequestDto.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\ItensPedido\\Model\\Resquest\\ItensPedidoRequestDto.cs",
+              "RelativeToolTip": "Application\\ItensPedido\\Model\\Resquest\\ItensPedidoRequestDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T22:25:01.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "PedidoResponseDto.cs",
               "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Model\\Response\\PedidoResponseDto.cs",
               "RelativeDocumentMoniker": "Application\\Pedido\\Model\\Response\\PedidoResponseDto.cs",
               "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Model\\Response\\PedidoResponseDto.cs",
               "RelativeToolTip": "Application\\Pedido\\Model\\Response\\PedidoResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBEAAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T22:29:46.996Z"
+              "WhenOpened": "2024-02-27T22:29:46.996Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "ApiPedidos\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "ApiPedidos\\Controllers\\ProdutoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T20:22:19.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IPedidoRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Domain\\Respositories\\IPedidoRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Respositories\\IPedidoRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Domain\\Respositories\\IPedidoRepository.cs",
+              "RelativeToolTip": "Domain\\Respositories\\IPedidoRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-27T22:51:39.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Pedido.cs",
               "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Domain\\Entities\\Pedido.cs",
               "RelativeDocumentMoniker": "Domain\\Entities\\Pedido.cs",
@@ -182,35 +317,12 @@
               "RelativeToolTip": "Domain\\Entities\\Pedido.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T23:03:39.705Z"
+              "WhenOpened": "2024-02-27T23:03:39.705Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "PedidoService.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Service\\PedidoService.cs",
-              "RelativeDocumentMoniker": "Application\\Pedido\\Service\\PedidoService.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Service\\PedidoService.cs",
-              "RelativeToolTip": "Application\\Pedido\\Service\\PedidoService.cs",
-              "ViewState": "AQIAACIAAAAAAAAAAAAIwCoAAAA9AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T22:35:32.454Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ProdutoService.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Produto\\Service\\ProdutoService.cs",
-              "RelativeDocumentMoniker": "Application\\Produto\\Service\\ProdutoService.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Produto\\Service\\ProdutoService.cs",
-              "RelativeToolTip": "Application\\Produto\\Service\\ProdutoService.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowE4AAAA/AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T20:27:52.452Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 20,
               "Title": "Injector.cs",
               "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Dependency\\Injector.cs",
               "RelativeDocumentMoniker": "Dependency\\Injector.cs",
@@ -223,79 +335,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "IPedidoRepository.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Domain\\Respositories\\IPedidoRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Respositories\\IPedidoRepository.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Domain\\Respositories\\IPedidoRepository.cs",
-              "RelativeToolTip": "Domain\\Respositories\\IPedidoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAAoAAAA",
+              "DocumentIndex": 15,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "RelativeToolTip": "Infrastructure\\Repositories\\ProdutoRepository.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAowFQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T22:51:39.671Z"
+              "WhenOpened": "2024-02-27T20:34:34.933Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IPedidoService.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Service\\IPedidoService.cs",
-              "RelativeDocumentMoniker": "Application\\Pedido\\Service\\IPedidoService.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Service\\IPedidoService.cs",
-              "RelativeToolTip": "Application\\Pedido\\Service\\IPedidoService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T22:35:46.542Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "ItensPedidoResponseDto.cs",
               "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\ItensPedido\\Model\\Response\\ItensPedidoResponseDto.cs",
               "RelativeDocumentMoniker": "Application\\ItensPedido\\Model\\Response\\ItensPedidoResponseDto.cs",
               "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\ItensPedido\\Model\\Response\\ItensPedidoResponseDto.cs",
               "RelativeToolTip": "Application\\ItensPedido\\Model\\Response\\ItensPedidoResponseDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAgAAAAnAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T22:32:25.332Z"
+              "WhenOpened": "2024-02-27T22:32:25.332Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ItensPedidoRequestDto.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\ItensPedido\\Model\\Resquest\\ItensPedidoRequestDto.cs",
-              "RelativeDocumentMoniker": "Application\\ItensPedido\\Model\\Resquest\\ItensPedidoRequestDto.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\ItensPedido\\Model\\Resquest\\ItensPedidoRequestDto.cs",
-              "RelativeToolTip": "Application\\ItensPedido\\Model\\Resquest\\ItensPedidoRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "DocumentIndex": 19,
+              "Title": "20240227175806_InitialCreate.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Migrations\\20240227175806_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240227175806_InitialCreate.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Migrations\\20240227175806_InitialCreate.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240227175806_InitialCreate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T22:25:01.197Z"
+              "WhenOpened": "2024-02-28T13:36:05.645Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "PedidoRequestDto.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Model\\Request\\PedidoRequestDto.cs",
-              "RelativeDocumentMoniker": "Application\\Pedido\\Model\\Request\\PedidoRequestDto.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Pedido\\Model\\Request\\PedidoRequestDto.cs",
-              "RelativeToolTip": "Application\\Pedido\\Model\\Request\\PedidoRequestDto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
+              "DocumentIndex": 18,
+              "Title": "20240228133948_view.cs",
+              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Migrations\\20240228133948_view.cs",
+              "RelativeDocumentMoniker": "Infrastructure\\Migrations\\20240228133948_view.cs",
+              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Migrations\\20240228133948_view.cs",
+              "RelativeToolTip": "Infrastructure\\Migrations\\20240228133948_view.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T21:47:34.919Z"
+              "WhenOpened": "2024-02-28T13:39:48.869Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "IItensPedidoRepository.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Domain\\Respositories\\IItensPedidoRepository.cs",
-              "RelativeDocumentMoniker": "Domain\\Respositories\\IItensPedidoRepository.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Domain\\Respositories\\IItensPedidoRepository.cs",
-              "RelativeToolTip": "Domain\\Respositories\\IItensPedidoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T22:41:47.216Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 21,
               "Title": "IProdutoService.cs",
               "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Produto\\Service\\IProdutoService.cs",
               "RelativeDocumentMoniker": "Application\\Produto\\Service\\IProdutoService.cs",
@@ -307,7 +399,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 22,
               "Title": "Application.csproj",
               "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Application\\Application.csproj",
               "RelativeDocumentMoniker": "Application\\Application.csproj",
@@ -319,7 +411,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "IProdutoRepository.cs",
               "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Domain\\Respositories\\IProdutoRepository.cs",
               "RelativeDocumentMoniker": "Domain\\Respositories\\IProdutoRepository.cs",
@@ -328,30 +420,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-27T20:44:44.401Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "ProdutoRepository.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\ProdutoRepository.cs",
-              "RelativeDocumentMoniker": "Infrastructure\\Repositories\\ProdutoRepository.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\Infrastructure\\Repositories\\ProdutoRepository.cs",
-              "RelativeToolTip": "Infrastructure\\Repositories\\ProdutoRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwv20AAAAwAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T20:34:34.933Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ProdutoController.cs",
-              "DocumentMoniker": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\Controllers\\ProdutoController.cs",
-              "RelativeDocumentMoniker": "ApiPedidos\\Controllers\\ProdutoController.cs",
-              "ToolTip": "C:\\MyProjects\\Desafio-Stefanini\\backend\\ApiPedidos\\ApiPedidos\\Controllers\\ProdutoController.cs",
-              "RelativeToolTip": "ApiPedidos\\Controllers\\ProdutoController.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-27T20:22:19.543Z"
             }
           ]
         }

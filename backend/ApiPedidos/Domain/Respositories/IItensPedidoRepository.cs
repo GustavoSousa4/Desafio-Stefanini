@@ -14,5 +14,6 @@ namespace Domain.Respositories
         Task<bool> Delete(int id);
         Task<IEnumerable<ItensPedido>> GetAll();
         Task<ItensPedido> GetById(int id);
+        Task<List<ItensPedido>> GetByIdPedido(int id);
     }
 }

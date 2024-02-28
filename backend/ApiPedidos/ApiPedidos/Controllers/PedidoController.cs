@@ -19,24 +19,44 @@ namespace ApiPedidos.Controllers
             _service = service;
         }
 
-        //[HttpGet("GetAll")]
-        //public async Task<IEnumerable<Pedido>> GetAllAsync()
-        //{
-        //    //return await _repository.GetAll();
-        //}
+        [HttpGet("GetAll")]
+        public async Task<List<PedidoResponseDto>> GetAllAsync()
+        {
+            return await _service.GetAllOrders();
+        }
 
-        [HttpGet("Pedidos/{id}")]
+        [HttpGet("{id}")]
         public async Task<PedidoResponseDto> GetByIdAsync([FromRoute] int id)
         {
             return await _service.GetOrderById(id);
         }
 
         [HttpPost]
-        public async Task PostAsync([FromBody] PedidoRequestDto pedido)
+        public async Task<IActionResult> PostAsync([FromBody] PedidoRequestDto pedido)
         {
 
-            _service.CreateOrder(pedido);
- 
+            if (await _service.CreateOrder(pedido))
+                return Ok("Pedido criado com sucesso");
+            return BadRequest("Erro ao criar pedido");
+
         }
+        [HttpPut("{id}")]
+        public async Task<IActionResult> PutAsync([FromRoute] int id, [FromBody] PedidoRequestDto pedidoRequestDto)
+        {
+
+            if (await _service.UpdateOrder(id, pedidoRequestDto))
+                return Ok("Pedido alterado com sucesso");
+            return BadRequest();
+
+        }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteAsync([FromRoute] int id)
+        {
+            if (await _service.DeleteOrder(id))
+                return Ok("Pedido excluido com sucesso");
+            return BadRequest("Erro ao excluir pedido");
+        }
+
     }
 }

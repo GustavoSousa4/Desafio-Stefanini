@@ -21,7 +21,6 @@ namespace Infrastructure.Repositories
                 await _context.Pedido.AddAsync(pedido);
 
                 await _context.SaveChangesAsync();
-
                 return true;
             }
             catch (Exception ex)

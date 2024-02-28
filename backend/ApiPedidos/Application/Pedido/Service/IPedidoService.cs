@@ -11,6 +11,9 @@ namespace Application.Pedido.Service
     public interface IPedidoService
     {
         Task<PedidoResponseDto> GetOrderById(int id);
+        Task<List<PedidoResponseDto>> GetAllOrders();
         Task<bool> CreateOrder(PedidoRequestDto pedidoRequestDto);
+        Task<bool> DeleteOrder(int id);
+        Task<bool> UpdateOrder(int id, PedidoRequestDto pedidoRequestDto);
     }
 }

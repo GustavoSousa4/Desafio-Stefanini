@@ -75,6 +75,17 @@ namespace Infrastructure.Repositories
                 throw new Exception(ex.Message);
             }
         }
+        public async Task<List<ItensPedido>> GetByIdPedido(int id)
+        {
+            try
+            {
+                return await _context.ItensPedido.Where(x => x.IdPedido == id).ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
         public async Task<bool> Update(ItensPedido itensPedido)
         {
             try

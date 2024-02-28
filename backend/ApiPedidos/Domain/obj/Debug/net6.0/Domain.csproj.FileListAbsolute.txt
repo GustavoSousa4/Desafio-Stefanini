@@ -1,0 +1,15 @@
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\bin\Debug\net6.0\Domain.deps.json
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\bin\Debug\net6.0\Domain.runtimeconfig.json
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\bin\Debug\net6.0\Domain.dll
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\bin\Debug\net6.0\Domain.pdb
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\obj\Debug\net6.0\Domain.csproj.AssemblyReference.cache
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\obj\Debug\net6.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\obj\Debug\net6.0\Domain.AssemblyInfoInputs.cache
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\obj\Debug\net6.0\Domain.AssemblyInfo.cs
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\obj\Debug\net6.0\Domain.csproj.CoreCompileInputs.cache
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\obj\Debug\net6.0\Domain.sourcelink.json
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\obj\Debug\net6.0\Domain.dll
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\obj\Debug\net6.0\refint\Domain.dll
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\obj\Debug\net6.0\Domain.pdb
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\obj\Debug\net6.0\Domain.genruntimeconfig.cache
+C:\MyProjects\Desafio-Stefanini\backend\ApiPedidos\Domain\obj\Debug\net6.0\ref\Domain.dll

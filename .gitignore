@@ -1,0 +1,6 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/backend/ApiPedidos/.vs/ApiPedidos/FileContentIndex/08db1e10-d206-4ed8-9659-82b88570ff0d.vsidx
+*.vsidx

@@ -51,7 +51,7 @@ namespace Infrastructure.Repositories
         {
             try
             {
-                return await _context.Pedido.AsNoTracking().OrderBy(x => x.Id).ToListAsync();
+                return await _context.Pedido.Include(x => x.ItensPedido).ThenInclude(c => c.Produto).AsNoTracking().OrderBy(x => x.Id).ToListAsync();
             }
             catch (Exception ex)
             {
@@ -63,7 +63,7 @@ namespace Infrastructure.Repositories
         {
             try
             {
-                return await _context.Pedido.FirstAsync(x => x.Id == id);
+                return await _context.Pedido.Include(x =>x.ItensPedido).ThenInclude(c => c.Produto).AsNoTracking().FirstAsync(x => x.Id == id);
             }
             catch (Exception ex)
             {

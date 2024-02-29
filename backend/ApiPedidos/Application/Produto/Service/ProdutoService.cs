@@ -29,13 +29,14 @@ namespace Application.Produto.Service
         public async Task<ProdutoResponseDto> GetProductById(int id)
         {
             var response = await _produtoRepository.GetById(id);
-            return new ProdutoResponseDto { 
-                Id = response.Id, 
+            return new ProdutoResponseDto
+            {
+                Id = response.Id,
                 NomeProduto = response.NomeProduto,
-                Valor = response.Valor 
+                Valor = response.Valor
             };
         }
-        public async Task<ProdutoResponseDto>GetProductByName(string name)
+        public async Task<ProdutoResponseDto> GetProductByName(string name)
         {
             var response = await _produtoRepository.GetByName(name);
             return new ProdutoResponseDto
@@ -50,37 +51,57 @@ namespace Application.Produto.Service
             return await _produtoRepository.GetPriceProduct(id);
         }
 
-        public async Task<bool> CreateProduct(ProdutoRequestDto produtoRequestDto)
+        public async Task<string> CreateProduct(ProdutoRequestDto produtoRequestDto)
         {
             ValidateRequest(produtoRequestDto);
-            await _produtoRepository.Create(new Domain.Entities.Produto(produtoRequestDto.NomeProduto, produtoRequestDto.Valor));
-            return true;
+            try
+            {
+                await _produtoRepository.Create(new Domain.Entities.Produto(produtoRequestDto.NomeProduto, produtoRequestDto.Valor));
+                return "Produto criado com sucesso.";
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao tentar inserir o produto.", ex);
+            }
         }
 
-        public async Task<bool> UpdateProduct(int id, ProdutoRequestDto produtoRequestDto)
+        public async Task<string> UpdateProduct(int id, ProdutoRequestDto produtoRequestDto)
         {
             ValidateRequest(produtoRequestDto);
+            try
+            {
+                var produto = await _produtoRepository.GetById(id);
 
-            var produto = await _produtoRepository.GetById(id);
+                produto.NomeProduto = produtoRequestDto.NomeProduto;
+                produto.Valor = produtoRequestDto.Valor;
 
-            produto.NomeProduto = produtoRequestDto.NomeProduto;
-            produto.Valor = produtoRequestDto.Valor;
-
-            await _produtoRepository.Update(produto);
-            return true;
+                await _produtoRepository.Update(produto);
+                return $"{produto.NomeProduto} alterado com sucesso.";
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Erro ao tentar alterar o produto.", ex);
+            }
         }
 
-        public async Task<bool> DeleteProduct(int id)
+        public async Task<string> DeleteProduct(int id)
         {
-            await _produtoRepository.Delete(id);
-            return true;
+            try
+            {
+                await _produtoRepository.Delete(id);
+                return $"Produto excluído com sucesso.";
+            }
+            catch(Exception ex)
+            {
+                throw new Exception("Erro ao tentar excluir o produto.");
+            }
         }
 
         private void ValidateRequest(ProdutoRequestDto request)
         {
             if (request.NomeProduto == null)
                 throw new Exception("Por favor, preencha o campo do nome do produto.");
-            if(request.Valor <= 0)
+            if (request.Valor <= 0)
                 throw new Exception("O valor do produto deve ser maior que zero.");
 
         }

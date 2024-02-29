@@ -2,6 +2,10 @@
 {
     public class ItensPedido
     {
+        public ItensPedido()
+        {
+                
+        }
         public ItensPedido(int idProduto, int idPedido, int quantidade)
         {
             IdProduto = idProduto;

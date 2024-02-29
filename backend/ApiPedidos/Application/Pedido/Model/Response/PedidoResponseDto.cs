@@ -15,6 +15,6 @@ namespace Application.Pedido.Model.Response
         public string EmailCliente { get; set; }
         public bool Pago { get; set; }
         public decimal ValorTotal { get; set; }
-        public List<ItensPedidoResponseDto> ItensPedidos { get; set; }
+        public IEnumerable<ItensPedidoResponseDto> ItensPedidos { get; set; }
     }
 }

@@ -2,6 +2,10 @@
 {
     public class Pedido
     {
+        public Pedido()
+        {
+            
+        }
         public Pedido(string nomeCliente, string emailCliente,  bool pago, DateTime dataCriacao)
         {
             NomeCliente = nomeCliente;

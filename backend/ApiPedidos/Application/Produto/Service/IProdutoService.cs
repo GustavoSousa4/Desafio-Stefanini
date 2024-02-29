@@ -15,8 +15,8 @@ namespace Application.Produto.Service
         Task<ProdutoResponseDto> GetProductById(int id);
         Task<ProdutoResponseDto> GetProductByName(string name);
         Task<decimal> GetProductPrice(int id);
-        Task<bool> CreateProduct(ProdutoRequestDto produtoRequestDto);
-        Task<bool> UpdateProduct(int id, ProdutoRequestDto produtoRequestDto);
-        Task<bool> DeleteProduct(int id);
+        Task<string> CreateProduct(ProdutoRequestDto produtoRequestDto);
+        Task<string> UpdateProduct(int id, ProdutoRequestDto produtoRequestDto);
+        Task<string> DeleteProduct(int id);
     }
 }

@@ -12,8 +12,8 @@ namespace Application.Pedido.Service
     {
         Task<PedidoResponseDto> GetOrderById(int id);
         Task<List<PedidoResponseDto>> GetAllOrders();
-        Task<bool> CreateOrder(PedidoRequestDto pedidoRequestDto);
-        Task<bool> DeleteOrder(int id);
-        Task<bool> UpdateOrder(int id, PedidoRequestDto pedidoRequestDto);
+        Task<string> CreateOrder(PedidoRequestDto pedidoRequestDto);
+        Task<string> DeleteOrder(int id);
+        Task<string> UpdateOrder(int id, PedidoRequestDto pedidoRequestDto);
     }
 }

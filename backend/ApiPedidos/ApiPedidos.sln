@@ -13,8 +13,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - I
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{5BF12BAF-AFF9-4316-B538-133993DF68B4}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 -", "5 -", "{64FF7945-85D4-4884-873D-4913501060C3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{32DCD185-033E-4B6A-8D6F-FEC809E03E4A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{4D1D6976-07FD-4652-A847-F451AA6552A8}"
@@ -24,7 +22,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{EA154608-7236-4CC6-8AEE-8F71D57029E6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dependency", "Dependency\Dependency.csproj", "{48FE81EC-FF00-4EB7-B6DF-0481F33E40F7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dependency", "Dependency\Dependency.csproj", "{48FE81EC-FF00-4EB7-B6DF-0481F33E40F7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

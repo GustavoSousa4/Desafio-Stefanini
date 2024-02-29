@@ -34,28 +34,18 @@ namespace ApiPedidos.Controllers
         [HttpPost]
         public async Task<IActionResult> PostAsync([FromBody] PedidoRequestDto pedido)
         {
-
-            if (await _service.CreateOrder(pedido))
-                return Ok("Pedido criado com sucesso");
-            return BadRequest("Erro ao criar pedido");
-
+            return Ok(await _service.CreateOrder(pedido));
         }
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAsync([FromRoute] int id, [FromBody] PedidoRequestDto pedidoRequestDto)
-        {
-
-            if (await _service.UpdateOrder(id, pedidoRequestDto))
-                return Ok("Pedido alterado com sucesso");
-            return BadRequest();
-
+        {        
+                return Ok(await _service.UpdateOrder(id, pedidoRequestDto));
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAsync([FromRoute] int id)
         {
-            if (await _service.DeleteOrder(id))
-                return Ok("Pedido excluido com sucesso");
-            return BadRequest("Erro ao excluir pedido");
+                return Ok(await _service.DeleteOrder(id));
         }
 
     }

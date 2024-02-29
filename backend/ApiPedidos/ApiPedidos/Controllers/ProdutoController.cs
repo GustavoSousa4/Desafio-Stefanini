@@ -13,7 +13,7 @@ namespace ApiPedidos.Controllers
     [Route("Produto")]
     public class ProdutoController : ControllerBase
     {
-     
+
         private readonly IProdutoService _service;
         public ProdutoController(IProdutoService produtoService)
         {
@@ -28,7 +28,7 @@ namespace ApiPedidos.Controllers
         {
             return await _service.GetProductById(id);
         }
-        
+
         [HttpGet("GetByName/{nomeProduto}")]
         public async Task<ProdutoResponseDto> GetByname([FromRoute] string nomeProduto)
         {
@@ -43,25 +43,19 @@ namespace ApiPedidos.Controllers
         [HttpPost]
         public async Task<IActionResult> PostAsync([FromBody] ProdutoRequestDto produto)
         {
-            if(await _service.CreateProduct(produto))
-                return Ok("Criado com sucesso!");
-            return BadRequest("Erro ao criar produto");
+            return Ok(await _service.CreateProduct(produto));
         }
 
         [HttpPut("{id}")]
         public async Task<IActionResult> PutAsync([FromRoute] int id, [FromBody] ProdutoRequestDto produto)
         {
-           if(await _service.UpdateProduct(id, produto))
-                return Ok("Alterado com sucesso!");
-            return BadRequest("Erro ao atualizar produto");
+            return Ok(await _service.UpdateProduct(id, produto));
         }
 
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteAsync([FromRoute] int id)
         {
-           if(await _service.DeleteProduct(id))
-                return Ok("Excluido com sucesso!");
-            return BadRequest("Erro ao excluir produto");
+            return Ok(await _service.DeleteProduct(id));
         }
     }
 }

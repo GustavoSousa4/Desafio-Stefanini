@@ -9,6 +9,7 @@ namespace Application.ItensPedido.Model.Resquest
 {
     public class ItensPedidoRequestDto
     {
-
+        public int IdProduto { get; set; }
+        public int quantidade { get; set; }
     }
 }

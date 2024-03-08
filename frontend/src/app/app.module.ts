@@ -8,13 +8,16 @@ import { PedidoComponent } from './pedido/pedido.component';
 import { HomeComponent } from './home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { DetalhesComponent } from './pedido/detalhes/detalhes.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProdutoComponent,
     PedidoComponent,
-    HomeComponent
+    HomeComponent,
+    DetalhesComponent,
 
   ],
   imports: [
@@ -22,7 +25,8 @@ import { HttpClientModule } from '@angular/common/http';
     AppRoutingModule,
     FormsModule,
     HttpClientModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CommonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -1,15 +1,11 @@
-/* SeuComponente.css */
-
 .main {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background-color: #f8f5c1;
-    /* Cor de fundo verde oliva */
-    color: #349e97;
-    /* Cor do texto */
+    background-color: #fff;
+    color: #2b9eb3;
     text-align: center;
 }
 
@@ -17,15 +13,17 @@
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .selecao {
     margin-bottom: 10px;
     font-size: 25px;
     text-decoration: none;
-    background-color: #349e97;
-    width: 10%;
-    border-radius: 5%;
+    background-color: #71dbd2;
+    width: max-content;
+    border-radius: 3px;
     color: #fff;
-    /* Cor do texto */
+    font-family: monospace;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }

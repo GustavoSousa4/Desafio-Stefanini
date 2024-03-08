@@ -1,0 +1,42 @@
+<div class="container">
+    <h2>Detalhes do pedido</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Cliente</th>
+                <th>Email do Cliente</th>
+                <th>Pago</th>
+                <th>Valor Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ pedido.nomeCliente }}</td>
+                <td>{{ pedido.emailCliente }}</td>
+                <td>{{ pedido.pago ? 'Sim' : 'Não' }}</td>
+                <td>{{ pedido.valorTotal}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>Detalhes do produto</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>ID do Produto</th>
+                <th>Nome do Produto</th>
+                <th>Quantidade</th>
+                <th>Valor unitário</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pedidoItem of pedido.itensPedidos">
+                <td>{{ pedidoItem.idProduto }}</td>
+                <td>{{ pedidoItem.nomeProduto}}</td>
+                <td>{{ pedidoItem.quantidade }}</td>
+                <td>{{ pedidoItem.valorUnitario }}</td>
+            </tr>
+        </tbody>
+    </table>
+    <button class="home-button" (click)="returnToHome()">Listagem de pedidos</button>
+</div>

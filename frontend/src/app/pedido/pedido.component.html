@@ -1,6 +1,6 @@
 <div class="container">
     <h2>Pedidos</h2>
-    <button (click)="returnToHome()">Voltar para a Página Inicial</button>
+    <button class="home-button" (click)="returnToHome()">Home</button>
 
     <form #pedidoForm="ngForm" [formGroup]="form">
         <label for="nomeCliente">Nome do Cliente:</label>
@@ -46,6 +46,7 @@
                 <td>
                     <button (click)="editPedido(pedido)">Editar</button>
                     <button (click)="deletePedido(pedido.id)">Excluir</button>
+                    <button routerLink="/detalhes/{{pedido.id}}">Ver detalhe</button>
                 </td>
             </tr>
         </tbody>

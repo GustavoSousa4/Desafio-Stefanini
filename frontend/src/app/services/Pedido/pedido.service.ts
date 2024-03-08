@@ -21,8 +21,8 @@ export class PedidoService {
       .pipe(retry(2), catchError(err => throwError(err)));
   }
 
-  getPedido(id: number): Observable<Pedido> {
-    return this.httpCliente.get<Pedido>(this.url + '/' + id)
+  getPedido(id: string): Observable<PedidoResponse> {
+    return this.httpCliente.get<PedidoResponse>(this.url + '/' + id)
       .pipe(catchError(err => throwError(err)));
   }
 

@@ -65,7 +65,7 @@ namespace Application.Produto.Service
             }
         }
 
-        public async Task<string> UpdateProduct(int id, ProdutoRequestDto produtoRequestDto)
+        public async Task<string> UpdateProduct(int id,ProdutoRequestDto produtoRequestDto)
         {
             ValidateRequest(produtoRequestDto);
             try

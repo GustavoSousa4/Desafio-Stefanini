@@ -68,14 +68,14 @@ namespace Application.Pedido.Service
             }
 
         }
-        public async Task<string> UpdateOrder(int id, PedidoRequestDto pedidoRequestDto)
+        public async Task<string> UpdateOrder(PedidoRequestDto pedidoRequestDto)
         {
             ValidateOrder(pedidoRequestDto);
             try
             {
 
-                var pedido = await _repository.GetById(id);
-                var itemPedido = await _itensPedidoRepository.GetByIdPedido(id);
+                var pedido = await _repository.GetById(pedidoRequestDto.Id);
+                var itemPedido = await _itensPedidoRepository.GetByIdPedido(pedidoRequestDto.Id);
 
                 pedido.NomeCliente = pedidoRequestDto.NomeCliente;
                 pedido.EmailCliente = pedidoRequestDto.EmailCliente;
@@ -93,7 +93,7 @@ namespace Application.Pedido.Service
             }
             catch (Exception ex)
             {
-                throw new Exception($"Erro ao alterar o pedido {id}.", ex);
+                throw new Exception($"Erro ao alterar o pedido {pedidoRequestDto.Id}.", ex);
             }
         }
 

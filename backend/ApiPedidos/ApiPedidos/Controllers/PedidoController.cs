@@ -37,9 +37,9 @@ namespace ApiPedidos.Controllers
             return Ok(await _service.CreateOrder(pedido));
         }
         [HttpPut("{id}")]
-        public async Task<IActionResult> PutAsync([FromRoute] int id, [FromBody] PedidoRequestDto pedidoRequestDto)
+        public async Task<IActionResult> PutAsync([FromBody] PedidoRequestDto pedidoRequestDto)
         {        
-                return Ok(await _service.UpdateOrder(id, pedidoRequestDto));
+                return Ok(await _service.UpdateOrder(pedidoRequestDto));
         }
 
         [HttpDelete("{id}")]

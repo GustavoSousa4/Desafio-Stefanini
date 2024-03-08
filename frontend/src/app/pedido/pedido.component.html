@@ -1,0 +1,54 @@
+<div class="container">
+    <h2>Pedidos</h2>
+    <button (click)="returnToHome()">Voltar para a Página Inicial</button>
+
+    <form #pedidoForm="ngForm" [formGroup]="form">
+        <label for="nomeCliente">Nome do Cliente:</label>
+        <input type="text" name="nomeCliente" formControlName="nomeCliente" required>
+
+        <label for="emailCliente">Email do Cliente:</label>
+        <input type="email" name="emailCliente" formControlName="emailCliente" required>
+
+        <label for="pago">Pago:</label>
+        <input type="checkbox" name="pago" formControlName="pago">
+
+        <label for="quantidade">Quantidade do Produto:</label>
+        <input type="number" name="quantidade" formControlName="quantidadeItem" required>
+
+        <label for="quantidade">Produto:</label>
+        <select class="select" formControlName="produto">
+            <option *ngFor="let produto of produtos" [ngValue]="produto.id">{{produto.nomeProduto}}</option>
+        </select>
+
+        <button type="submit" (click)="createOrUpdatePedido()">Confirmar</button>
+    </form>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome do Cliente</th>
+                <th>Email do Cliente</th>
+                <th>Pago</th>
+                <th>Quantidade do Produto</th>
+                <th>Valor Total</th>
+                <th>ID do Produto</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pedido of pedidos">
+                <td>{{ pedido.nomeCliente }}</td>
+                <td>{{ pedido.emailCliente }}</td>
+                <td>{{ pedido.pago ? 'Sim' : 'Não' }}</td>
+                <td>{{ pedido.itensPedidos[0].quantidade }}</td>
+                <td>{{ pedido.valorTotal}}</td>
+                <td>{{ pedido.itensPedidos[0].idProduto }}</td>
+                <td>
+                    <button (click)="editPedido(pedido)">Editar</button>
+                    <button (click)="deletePedido(pedido.id)">Excluir</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

@@ -11,6 +11,7 @@ namespace Application.Pedido.Model.Request
 {
     public class PedidoRequestDto
     {
+        public int Id { get; set; }
         public string NomeCliente { get; set; }
         public string EmailCliente { get; set; }
         public bool Pago { get; set; }

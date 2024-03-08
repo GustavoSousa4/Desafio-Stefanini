@@ -1,0 +1,34 @@
+<div *ngIf="produtos && produtos.length">
+    <h1>Produtos</h1>
+    <button class="home-button" (click)="returnToHome()">Home</button>
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nome Produto</th>
+                <th>Preço</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let produto of produtos">
+                <td>{{produto.id}}</td>
+                <td>{{produto.nomeProduto}}</td>
+                <td>{{produto.valor}}</td>
+                <td>
+                    <button (click)="editProduct(produto)">Editar</button>
+                    <button (click)="deleteProduct(produto)">Excluir</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<form #form="ngForm" (ngSubmit)="updateProduct(form)">
+    <input type="hidden" name="id" [(ngModel)]="produto.id">
+    <label for="name">Nome:</label>
+    <input type="text" id="name" name="name" [(ngModel)]="produto.nomeProduto" required>
+    <label for="valor">Valor:</label>
+    <input type="number" id="price" name="price" [(ngModel)]="produto.valor" required>
+    <button type="submit">{{produto.id ? 'Alterar' : 'Criar'}}</button>
+</form>

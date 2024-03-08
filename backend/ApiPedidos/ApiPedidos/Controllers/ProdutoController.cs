@@ -43,7 +43,8 @@ namespace ApiPedidos.Controllers
         [HttpPost]
         public async Task<IActionResult> PostAsync([FromBody] ProdutoRequestDto produto)
         {
-            return Ok(await _service.CreateProduct(produto));
+            await _service.CreateProduct(produto);
+            return Ok();
         }
 
         [HttpPut("{id}")]
@@ -53,7 +54,7 @@ namespace ApiPedidos.Controllers
         }
 
         [HttpDelete("{id}")]
-        public async Task<IActionResult> DeleteAsync([FromRoute] int id)
+        public async Task<IActionResult> DeleteAsync([FromRoute]int id)
         {
             return Ok(await _service.DeleteProduct(id));
         }

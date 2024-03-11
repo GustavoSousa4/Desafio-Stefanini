@@ -1,14 +1,16 @@
 # Desafio-Stefanini
-Este projeto em .Net é uma aplicação simples que consite em realizar um CRUD para cadastro de pedidos e produtos. Onde a maneira de armazenamento foi InMemory. _Leia mais em: **https://learn.microsoft.com/en-us/ef/core/providers/in-memory/?tabs=dotnet-core-cli**_
+Este projeto em .Net e Angular, é uma aplicação simples que consite em realizar um CRUD para cadastro de pedidos e produtos. Onde a maneira de armazenamento foi InMemory. _Leia mais em: **https://learn.microsoft.com/en-us/ef/core/providers/in-memory/?tabs=dotnet-core-cli**_
 
 ## Requisitos
 
 Para executar este projeto, você precisará do seguinte software instalado em seu sistema:
 
 - Visual Studio 2022
+- VsCode
+- Node.js
 - SDK do dotNet
 
-## Como usar
+## Como usar o Bakcend
 
 Siga estas etapas para executar o projeto em seu ambiente local:
 
@@ -47,6 +49,19 @@ Foi desenvolvido utilizando alguns padrões de SOLID, DDD e Clean Architecture
 - `3 - Domain`: Contém as entidades e as interfaces dos repostitórios.
 - `4 - Infrastructure`: Contém a injeção de dependência do projeto, o DbContext, os mappings das entidades, as migrations e a classe concreta dos repositórios. 
 
+## Como usar o Ffrontend
+
+1. Abra a pasta fontend na IDE (VsCode).
+
+2. No terminal da IDE, vá até a pasta src/app.
+
+3. Execute o comando 'npm i' para instalar os pacotes nececssários do projeto.
+
+4. Execute o comando 'ng serve' ou pressione a tecla [F5].
+
+5. O projeto será executado na rota localhost:4200 e abrirá uma página no seu navegador.
+
+6. No início da página será possível ir para pedidos ou produto, para realizar as devidas funcionalidades (criar, excluir e alterar).
 
 ## Contato
 - Linkedin: linkedin.com/in/gustavoefsousa/
